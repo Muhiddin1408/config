@@ -197,3 +197,4 @@ def inline(update: Update, context: CallbackContext):
         context.bot.send_message(chat_id=update.callback_query.from_user.id, text="Qisqa izoh yozishingiz mumkin",
                                  reply_markup=back)
 
+
