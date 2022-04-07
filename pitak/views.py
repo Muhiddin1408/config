@@ -65,7 +65,7 @@ def order(update: Update, context):
                                   reply_markup=viloyat)
         Users.objects.filter(id=user_id).update(car=msg)
         Users.objects.filter(id=user_id).update(step=3)
-    elif step.step == 3 and msg=='🔙Ortga':
+    elif step.step == 3 and msg == '🔙Ortga':
         # if Users.objects.get(id=user_id).status == 'Shafyor':
         #
         # else:
