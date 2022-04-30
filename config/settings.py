@@ -70,7 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
-TOKEN ='2019705982:AAGo1WyKgNQrCQAcNHuxc66ho6u9L0jU6d4'
+TOKEN ='1998336097:AAFDldMECok0SJFx-wipgM6R3W3FuKpw3fQ'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
